@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+.header img {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 700px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    filter: brightness(40%);
+}
+
+.text-in-photo {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-top: 200px;
+    font-size: x-large;
+}
+
+.block-pov-dogs, .dogs-care, .block-hv, .vstup-porodu {
+    width: 310px;
+    height: 60px;  
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: 30px; 
+    color: white;
+    font-size:x-large;
+    background-color: #344a1bbc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.text-ps-2 {
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+.kvadr-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px;
+    margin-top: 100px;
+    background-color: #c3dba7bc;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.vstup-food, .vstup-rec-food {
+    font-size:x-large;
+    margin-left: 450px;
+    color: green;
+    font-weight: 500;
+    margin-top: 50px}
+
+.types-korm {
+    font-size:x-large;
+    margin-left: 550px;
+    color: green;
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+.text-ps,.about-korm, .about-care-sh, .about-profi, .about-love, .about-phis, .osn-food, .about-pot-food {
+    font-size: larger;
+    padding: 50px;
+    background-color: #c3dba7bc;
+    margin: 50px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pot-food {
+    font-size:x-large;
+    margin-left: 450px;
+    color: green;
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+.square {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Щоб квадрати були розміщені по три горизонтально */
+    gap: 20px;
+    padding: 50px;
+    background-color: #c3dba7bc;;
+}
+
+.content-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.content-item p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media (max-width: 1000px) {
+    .content-item {
+        width: calc(50% - 20px); /* Два квадратики горизонтально для малих екранів */
+    }
+}
+
+@media (max-width: 600px) {
+    .content-item {
+        width: calc(100% - 20px); /* Один квадратик на весь рядок для дуже малих екранів */
+    }
+}
+
+.care-sh {
+    font-size:x-large;
+    margin-left: 550px;
+    color: green;
+    font-weight: 500;
+    margin-top: 50px
+}
+
+.vstup-profi {
+    font-size:x-large;
+    margin-left: 300px;
+    color: green;
+    font-weight: 500;
+    margin-top: 50px
+}
+
+.vstup-love {
+    font-size:x-large;
+    margin-left: 550px;
+    color: green;
+    font-weight: 500;
+    margin-top: 50px
+}
+
+.vstup-phis {
+    font-size:x-large;
+    margin-left: 550px;
+    color: green;
+    font-weight: 500;
+    margin-top: 50px
+}
+
+.vstup-irus {
+    font-size:x-large;
+    margin-left: 600px;
+    color: rgb(0, 5, 0);
+    font-weight: 500;
+    margin-top: 50px;
+}
+.content-class {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    background-color: #c3dba7bc;
+    padding: 50px;
+}
+
+.hv {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px; 
+    background-color: #ffffff; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    border-radius: 10px; 
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.hv p {
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    font-size:large; 
+    color: #333; 
+}
+
+.div-porod {
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: -120px;
+}
+
+.vstup-retruver, .vstup-bul, .vstup-boks, .vstup-pud, .vstup-sh{
+    font-size: x-large;
+    margin-top: 80px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 250px;
+    
+}
+.photo-retruver, .photo-bul, .photo-boks, .photo-pud, .photo-sh{
+    width: 350px;
+    height: 450px;
+
+}
+
+.text-retruver, .text-bul, .text-boks, .text-pud, .text-sh{
+    font-size:x-large;
+    margin-top: -350px;
+    margin-left: 600px;
+}
+
+
+
+.vstup-viv, .vstup-xaski, .vstup-frize, .vstup-big, .vstup-koli{
+    font-size: x-large;
+    margin-top: 80px;
+    font-weight: 700;
+    margin-top: 250px;
+    margin-left: 700px
+}
+
+.photo-viv, .photo-xaski, .photo-frize, .photo-big, .photo-koli {
+    width: 450px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 500px 
+}
+
+.text-viv, .text-xaski, .text-frize, .text-big, .text-koli {
+    font-size: x-large;
+    margin-right:700px;
+    margin-top: -420px;
+}
+
+
+
+

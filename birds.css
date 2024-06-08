@@ -1,0 +1,376 @@
+body {
+    margin: 0px;
+
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: relative;
+    display: inline-block;
+
+}
+
+.header img {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 700px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    filter: brightness(50%);
+}
+
+.header-text {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-top: 200px;
+    font-size: x-large;
+}
+
+.block-ps, .block-care {
+    width: 310px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: x-large;
+    background-color: rgba(9, 76, 17, 0.725);
+    text-align: center;
+    border-radius: 8px; 
+}
+
+.about-ps, .bl-h, .bl-med, .bl-st, .bl-trening{
+        /* font-size: larger; */
+        padding: 50px;
+        margin: 50px auto;
+        border-radius: 8px;
+        max-width: 800px;
+        background-color: rgba(3, 65, 9, 0.529);
+}
+
+.bl-med {
+    margin-bottom: 200px;
+}
+.about-ps1, .about-ps2, .about-home, .about-med, .about-stumyl, .ab-t {
+   
+    margin-top: -30px;
+    margin-bottom: -20px;
+    font-size: larger;
+    padding: 50px;
+    color: rgb(236, 234, 234);
+}
+
+.vstup-home, .food{
+    font-size: x-large;
+    margin-left: 450px;
+    color: rgb(64, 80, 64);
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+ /* {
+
+    width: 1200px;
+    height: 460px;
+    font-size: larger;
+    padding: 50px;
+    color: rgb(2, 2, 2);
+} */
+
+ /* {
+    font-size: x-large;
+    margin-left: 550px;
+    color: rgb(6, 255, 6);
+    font-weight: 500;
+    margin-top: -100px;
+    margin-bottom: 100px;
+} */
+
+.kvadr-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Відстань між блоками */
+    justify-content: space-between;
+    margin: 0 auto; /* Вирівнювання по центру */
+    max-width: 1200px; /* Максимальна ширина контейнера */
+    background-color: #18a01148;
+    padding: 50px;
+}
+
+.box {
+    flex: 0 1 calc(33.333% - 20px); /* Кожен блок займає приблизно третину ширини контейнера */
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0; /* Синя рамка */
+    border-radius: 10px;
+    text-align: left;
+    height: 200px; /* Фіксована висота для квадратного вигляду */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для блоків */
+    transition: transform 0.3s, box-shadow 0.3s; /* Анімація при наведенні */
+}
+
+.box:hover {
+    transform: translateY(-10px); /* Зміщення блока при наведенні */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Збільшення тіні при наведенні */
+}
+
+.box p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Колір тексту */
+}
+
+.box b {
+    color: #000000; /* Синій колір для виділеного тексту */
+}
+
+
+
+
+
+.kvadr-med {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Відстань між блоками */
+    justify-content: space-between;
+    margin: 0 auto; /* Вирівнювання по центру */
+    max-width: 1200px; /* Максимальна ширина контейнера */
+    margin-top: 100px;
+}
+
+.box-med {
+    flex: 0 1 calc(33.333% - 20px); /* Кожен блок займає приблизно третину ширини контейнера */
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0; /* Синя рамка */
+    border-radius: 10px;
+    text-align: left;
+    height: 200px; /* Фіксована висота для квадратного вигляду */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для блоків */
+    transition: transform 0.3s, box-shadow 0.3s; /* Анімація при наведенні */
+    margin-top: 100px;
+}
+
+.box-med:hover {
+    transform: translateY(-10px); /* Зміщення блока при наведенні */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Збільшення тіні при наведенні */
+}
+
+.box-med p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Колір тексту */
+}
+
+.box-med b {
+    color: #000000; /* Синій колір для виділеного тексту */
+}
+
+
+
+
+.vstup-med {
+    font-size: x-large;
+    margin-left: 450px;
+    color: rgb(64, 80, 64);
+    font-weight: 500;
+    font-size: x-large;
+    margin-left: 550px;
+    color: rgb(64, 80, 64);
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+/* .about-med {
+    width: 1200px;
+    height: 200px;
+    font-size: larger;
+    padding: 50px;
+    margin-bottom: 0px;
+    
+} */
+
+.kvadr-med {
+  
+    display: flex;
+    flex-direction: column; /* Зміна напрямку на вертикальний */
+    gap: 20px;
+    padding: 20px;
+    margin-top: -100px;
+}
+
+.box-med {
+    margin-top: -10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background-color: rgba(198, 215, 187, 0.27);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Проміжок між блоками внизу */
+}
+
+.box-med p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-size: larger;
+}
+
+
+.vstup-stumyl {
+    font-size: x-large;
+    margin-left: 450px;
+    font-weight: 500;
+    color: rgb(64, 80, 64);
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+/* .about-stumyl {
+    width: 1170px;
+    margin-top: 50px;
+    font-size: larger;
+    padding: 50px;
+    margin-top: 80px;
+    height: 850px;
+    background-color: rgba(7, 21, 8, 0.65);
+    color: rgb(220, 220, 220);
+} */
+
+.vstup-trening{
+    font-size: x-large;
+    margin-left: 450px;
+    font-weight: 500;
+    color: rgb(64, 80, 64);
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+
+.about-trening {
+    width: 1170px;
+    margin-top: 50px;
+    font-size: larger;
+    padding: 50px;
+    margin-top: 20px;
+    height: 650px;
+    color: rgb(40, 40, 40);
+    margin-left: 0px;   
+}
+
+.vstup-diseases {
+    font-size: x-large;
+    margin-left: 450px;
+    font-weight: 500;
+    color: rgb(64, 80, 64);
+    font-weight: 500;
+    margin-top: 50px;
+}
+.div-diseases {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.daseases-box {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px; 
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #c2e5be31; 
+    box-sizing: border-box; 
+    transition: all 0.3s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.daseases-box:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.daseases-box p {
+    margin: 0;
+    font-size: larger;
+    color: #333; 
+}
+
+.vstup-top10 {
+    font-size: x-large;
+    margin-left: 550px;
+    font-weight: 700;
+    color: rgb(64, 80, 64);
+    font-weight: 700;
+    margin-top: 80px;
+
+}
+
+
+.name-hv, .name-senega, .name-korella, .name-love, .name-ara {
+    font-size: x-large;
+    margin-top: 80px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.photo-hv, .photo-senega, .photo-korella, .photo-love, .photo-ara{
+    width: 450px;
+    height: 550px;
+    margin-left: 100px;
+}
+
+
+.text-hv, .text-senega, .text-korella, .text-love, .text-ara {
+    font-size:x-large;
+    margin-top: -500px;
+    margin-left: 660px;
+    width: 500px;
+}
+
+
+.name-ka, .name-kon, .name-lori, .name-afruka, .name-kva {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+.photo-ka, .photo-kon, .photo-lori, .photo-afruka, .photo-kvaker {
+    width: 450px;
+    height: 550px;
+    margin-left: 700px;
+}
+
+.text-ka, .text-kon, .text-lori, .text-afruka, .text-kvaker {
+    font-size:x-large;
+    margin-top: -500px;
+    margin-left: 100px;
+    width: 500px;
+}
+
+.divvv {
+    margin-top: 250px;
+}
+
+.ost {
+    font-size:x-large;
+    margin-top: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #2e412d48;
+    color:#000000;
+    height: 200px;
+}

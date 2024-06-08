@@ -1,0 +1,207 @@
+/* .video-one {
+    width: 1400px;
+} */
+
+.div-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    z-index: 1;
+}
+
+
+.video-one {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.intro {
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.intro::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(10, 10, 10, 0.665);
+    width: 100%;
+    height: 100%;
+}
+
+.intro-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro-title{
+    color:aliceblue;
+    text-align: center;
+}
+
+.type-fish, .block-care{
+    width: 310px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: x-large;
+    background-color: rgba(6, 6, 115, 0.662);
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px; 
+}
+
+.about-types {
+    font-size: larger;
+    padding: 50px;
+}
+
+
+.vstup-food {
+    font-size: x-large;
+    margin-left: 500px;
+    color: rgb(26, 22, 60);
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+
+
+
+
+.vstup-clear, .vstup-hard, .vstup-ak, .vstup-h {
+    font-size: x-large;
+    margin-left: 500px;
+    color: rgb(26, 22, 60);
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+
+.parametru{
+    font-size: x-large;
+    margin-left: 500px;
+    color: rgb(26, 22, 60);
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+
+
+
+.about-parametru, .ph, .ph-3, .about-ak, .about-types, .about-clear, .ph, .about-hard, .about-hard, .about-food {
+    font-size: larger;
+    padding: 50px;
+    margin: 50px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(69, 164, 247, 0.199);
+}
+
+.container-c, .container-ph {
+    display: flex;
+    justify-content: space-between; /* Рівномірно розподілити квадратики в рядку */
+    margin: 50px;
+}
+
+.container-2, .container-ph-2 {
+    width: calc(33.33% - 20px); /* Ширина квадратика для вміщення 3 в рядку */
+    margin-bottom: 20px; /* Відступи між квадратиками */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff; /* Білий колір фону */
+    box-sizing: border-box; /* Урахування товщини рамки у обчисленні ширини */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тінь для створення об'єму */
+    transition: all 0.3s ease; /* Плавна зміна всіх властивостей за 0.3 секунди */
+
+}
+
+.container-2:hover, .container-ph-2:hover {
+    transform: translateY(-5px); /* Підняття елементу при наведенні */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Збільшення тіні для створення об'єму */
+}
+
+.container-2 p, .container-ph-2 {
+    margin: 0;
+    font-size: larger;
+    color: #333; /* Колір тексту */
+}
+
+.div-photo {
+    margin-bottom: 200px;
+
+}
+
+.pivnuku, .g, .d, .r, .n {
+    font-size: x-large;
+    margin-top: 80px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+
+.photo-pivnyku, .p-g, .p-d, .p-r, .p-n {
+    width: 450px;
+height: 450px;
+margin-left: 100px;
+} 
+
+
+.text-pivnuku, .t-g, .t-d, .t-r, .t-n {
+    font-size: x-large;
+    margin-top: -300px;
+    margin-left: 660px;
+    width: 500px;
+}
+
+
+
+
+
+
+.ska, .b, .a, .s, .u {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+.photo-ska, .p-b, .p-a, .p-s, .p-u {
+    width: 450px;
+    height: 500px;
+    margin-left: 700px;
+}
+
+.text-ska, .t-b, .t-a, .t-s, .t-u {
+    font-size: x-large;
+    margin-top: -300px;
+    margin-left: 100px;
+    width: 500px;
+
+}

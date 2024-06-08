@@ -1,0 +1,274 @@
+/* Встановлюємо нульові відступи та заповнення для всього документа */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* Контейнер для відео */
+.video-bg {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Повна висота екрану */
+    overflow: hidden;
+}
+
+/* Налаштування відео, щоб воно покривало весь екран */
+.video-bg video {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* Накладення ефекту затемнення на відео */
+.effects {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Контейнер для тексту "Донат" */
+.video-bg___content {
+    position: absolute;
+    top: 60%;
+    left: 950px; /* Відступ зліва */
+    transform: translateY(-50%); /* Вертикальне центровання */
+    z-index: 3; /* Забезпечення, що контент над ефектом */
+    background-color: rgb(47, 112, 67); /* Зелений фон */
+    height: 60px;
+    width: 180px;
+    text-align: center;
+    border-radius: 30px; /* Заокруглення куточків */
+    display: flex;
+    align-items: center; /* Центрування контенту вертикально */
+    justify-content: center; 
+}
+
+.video-bg___content-2 {
+    position: absolute;
+    top: 80%;
+    left: 950px; /* Відступ зліва */
+    transform: translateY(-50%); /* Вертикальне центровання */
+    z-index: 3; /* Забезпечення, що контент над ефектом */
+    background-color: rgb(47, 112, 67); /* Зелений фон */
+    height: 60px;
+    width: 180px;
+    text-align: center;
+    border-radius: 30px; /* Заокруглення куточків */
+    display: flex;
+    align-items: center; /* Центрування контенту вертикально */
+    justify-content: center; 
+}
+
+.video-bg___content:hover,
+.video-bg___content-2:hover {
+    background-color: rgb(83, 135, 98); /* Зелений фон з легким затемненням при наведенні */
+}
+
+/* Налаштування для тексту "Донат" */
+.video-bg___content a {
+    color: white; /* Білий колір тексту */
+    font-size: 1.5em; /* Збільшений розмір тексту */
+    text-decoration: none; /* Видалення підкреслення */
+    font-weight: bold; /* Жирний текст */
+}
+
+.video-bg___content-2  a {
+    color: white; /* Білий колір тексту */
+    font-size: 1.5em; /* Збільшений розмір тексту */
+    text-decoration: none; /* Видалення підкреслення */
+    font-weight: bold; /* Жирний текст */
+}
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+}
+.button-animals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+.button-animals .animal-item {
+    flex: 1 1 calc(25% - 40px); /*  ширина блоку */
+    margin: 20px;
+    height: 500px; 
+    width: 250px; 
+    background-color: #202020;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 16px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.button-animals .animal-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.604);
+}
+.button-animals .animal-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 16px;
+}
+.button-animals .animal-item:hover img {
+    opacity: 0.3;
+}
+.button-animals .animal-item a {
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+.button-animals .animal-item .grizynu {
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 128, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin: 0;
+    z-index: 1;
+}
+   .about-your {
+    width: 100%;
+    height: 400px;
+    margin-top: 70px;
+    background-color:rgb(191, 223, 233);
+   }
+
+ 
+   .chooose {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); /* Центруємо відносно вертикалі та горизонталі */
+    background-color: rgb(241, 249, 252);
+    background-color: rgba(210, 203, 203, 0.7); 
+    padding: 10px;
+    text-align: center; 
+    z-index: 2;
+    margin-top: 100px;
+}
+
+
+
+.psychologe-cat.jpg {
+    position: relative; 
+    width: 100%;
+    height: auto;
+    background-color: rgb(211, 234, 242);
+}
+
+
+.choose-pets {
+    margin-top: 100px; margin-left: 370px;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: rgb(47, 112, 67);
+    width: 400px; height: 50px;
+    text-align: center;
+    padding: 20px; 
+    border-radius: 20px; 
+    color: white; 
+    line-height: 5px;
+}
+
+
+.cat-container {
+    display: flex;
+    width: 100%;
+    height: 700px; 
+}
+
+.cat-image {
+    flex: 1;
+    background: url("./images/psychologe-cat.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.cat-text {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 
+
+.bl-ab-your{
+    height: 300px;
+    width: 300px;
+    background-color: #202020;
+    color:#f0f2f5;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.bl-k {
+    height: 200px;
+    width: 300px;
+    background-color: #202020;
+    color:#f0f2f5;
+    padding: 20px;
+    margin-top: -900px;
+    display: inline-block;
+    margin-left: 700px;
+}
+  */
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: #202020;
+    padding: 50px;
+}
+.bl-ab-your, .bl-k {
+    width: 40%;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:#f0f2f5;
+   
+ 
+}
+
+

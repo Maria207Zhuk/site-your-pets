@@ -1,0 +1,160 @@
+body {
+    margin: 0px;
+}
+
+.div-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    z-index: 1;
+}
+
+
+.video-one {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.intro {
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.intro::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(15, 15, 23, 0.718);
+    width: 100%;
+    height: 100%;
+}
+
+.intro-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro-title{
+    color:aliceblue;
+    text-align: center;
+}
+
+
+.types-frog, .bl-ps, .bl-d, .bl-hv, .sp{
+    width: 310px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: x-large;
+    background-color: rgba(13, 59, 17, 0.662);
+    text-align: center;
+    justify-content: center;
+}
+
+
+.typ-f, .ab-ch{
+    font-size: larger;
+    padding: 50px;
+}
+
+.ab-ps, .ab-g, .ab-hv {
+    font-size: larger;
+    padding: 50px;
+    background-color: rgba(13, 59, 17, 0.178);
+    margin-top: 50px;
+    color:rgb(44, 43, 43)
+
+}
+
+.zel-v {
+    font-size: larger;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.v-v, .v-g, .v-ch {
+    font-size: x-large;
+    margin-left: 500px;
+    color: rgb(26, 22, 60);
+    font-weight: 500;
+    margin-top: 80px;
+}
+
+
+
+.div-photo {
+    margin-bottom: 200px;
+
+}
+
+.b, .e, .r {
+    font-size: x-large;
+    margin-top: 80px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+
+.p-b, .p-e, .p-r{
+    width: 450px;
+height: 450px;
+margin-left: 100px;
+} 
+
+
+.t-b, .t-e, .t-r {
+    font-size: x-large;
+    margin-top: -300px;
+    margin-left: 660px;
+    width: 500px;
+}
+
+
+
+
+
+
+.d, .a, .l {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+.p-d, .p-a, .p-l {
+    width: 450px;
+    height: 500px;
+    margin-left: 700px;
+}
+
+.t-d, .t-a, .t-l{
+    font-size: x-large;
+    margin-top: -300px;
+    margin-left: 100px;
+    width: 500px;
+
+}

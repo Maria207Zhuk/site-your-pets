@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+}
+
+.div-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    z-index: 1;
+}
+
+
+.video-one {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.intro {
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.intro::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.734);
+    width: 100%;
+    height: 100%;
+}
+
+.intro-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro-title{
+    color:aliceblue;
+    text-align: center;
+}
+
+
+.type-ch, .ps, .dg, .hvo, .block-species{
+    width: 310px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: x-large;
+    background-color: rgba(51, 156, 221, 0.662);
+    text-align: center;
+}
+
+.abour-ch, .sr, .hr, .ts, .ad-hvo, .vs-species{
+    font-size: larger;
+    padding: 50px;
+}
+
+
+.about-ps, .os, .zd {
+    font-size: larger;
+    padding: 50px;
+    background-color: rgba(69, 164, 247, 0.199);
+    margin-top: 50px;
+}
+
+.div-photo {
+    margin-bottom: 200px;
+
+}
+
+.red, .c, .zir, .zv {
+    font-size: x-large;
+    margin-top: 80px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+
+.photo-red, .p-c, .p-zir, .p-zv {
+    width: 450px;
+height: 450px;
+margin-left: 100px;
+} 
+
+
+.text-red, .t-c, .t-zir, .t-zv {
+    font-size: x-large;
+    margin-top: -450px;
+    margin-left: 660px;
+    width: 500px;
+}
+
+
+
+
+
+
+.g, .l, .k {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+.p-g, .p-l, .p-k{
+    width: 450px;
+    height: 500px;
+    margin-left: 700px;
+}
+
+.t-g, .t-l, .t-k {
+    font-size: x-large;
+    margin-top: -450px;
+    margin-left: 100px;
+    width: 500px;
+
+}

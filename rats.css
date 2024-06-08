@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+}
+
+.div-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    z-index: 1;
+}
+
+
+.video-one {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.intro {
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.intro::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(13, 13, 13, 0.761);
+    width: 100%;
+    height: 100%;
+}
+
+.intro-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro-title{
+    color:aliceblue;
+    text-align: center;
+}
+
+
+.bl-ps, .bl-care, .bl-d{
+    width: 310px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: x-large;
+    background-color: rgba(4, 4, 4, 0.775);
+    text-align: center;
+    justify-content: center;
+}
+
+.ab-ps, .ab-o, .ab-d {
+    font-size: larger;
+    padding: 50px;
+    background-color: rgb(240, 240, 240);
+    margin: 50px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(235, 235, 235, 0.1);
+}
+
+.ab-f, .ab-h{
+    font-size: larger;
+    padding: 50px;
+    background-color: rgba(69, 69, 69, 0.835);
+    margin: 50px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(235, 235, 235, 0.1);
+    color:rgb(240, 240, 240)
+}
+
+.v-food, .v-o, .v-h, .dam {
+    font-size: x-large;
+    color: rgb(11, 11, 11);
+    font-weight: 500;
+    margin: 80px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+h3 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.ttt {
+    margin-top: 50px;
+}
+
+.p-dam {
+    margin: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
