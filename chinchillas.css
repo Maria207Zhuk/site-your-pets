@@ -1,7 +1,7 @@
 body {
     margin: 0;  
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f0f2f5;
     color: #000000;
 }
 
@@ -71,7 +71,7 @@ body {
     border-radius: 8px;
 }
 
-/* Блоки для контенту */
+
 .block-care, .porodu, .xvo, .ps-sh, .porodu, .xvo  {
     width: 310px;
     height: 60px;
@@ -157,7 +157,7 @@ body {
     font-size: larger;
 }
 
-/* Стилі для таблиці */
+
 h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -185,10 +185,10 @@ tr:hover {
     background-color: #f9f9f9;
 }
 
-/* Медіа-запит для мобільних пристроїв */
+
 @media (max-width: 768px) {
     .photo-container {
-        display: block; /* Змінюємо властивість display на block, щоб зображення та текст відображалися одне під одним */
+        display: block; 
         width: 90%;
         margin: 10px auto;
         text-align: center;
@@ -200,6 +200,6 @@ tr:hover {
     }
 
     .photo-container p {
-        margin-top: 10px; /* Відступ між зображенням і текстом */
+        margin-top: 10px; 
     }
 }

@@ -2,6 +2,11 @@
     width: 1400px;
 } */
 
+body {
+    margin: 0px;
+    background-color: #f0f2f5;
+}
+
 .div-video {
     position: relative;
     padding-bottom: 56.25%;

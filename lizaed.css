@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+.header img {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 700px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    filter: brightness(40%);
+}
+
+.text-in-photo {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-top: 200px;
+    font-size: x-large;
+}
+
+.ps-pov-lizard, .fiz-lizard, .bl-live, .bl-healthy, .bl-food, .bl-g, .bl-p {
+    width: 310px;
+    height: 60px;  
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: 30px; 
+    color: white;
+    font-size: x-large;
+    background-color: #344a1bbc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.t-ps, .t-lizard, .t-fiz, .t-live, .t-healthy, .t-food, .t-g {
+    font-size: larger;
+    padding: 50px;
+    background-color: #c3dba7bc;
+    margin: 50px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.div-porodu {
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 120px;
+}
+
+.n-k-varan, .n-h, .n-dovgo-h, .n-st-varan, .n-vyh, .n-snuk {
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.p-k-varan, .p-h, .p-dovgo-h, .p-st-varan, .p-vyh, .p-snuk {
+    width: 350px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.t-k-varan, .t-h, .t-dovgo-h, .t-st-varan, .t-vyh, .t-snuk {
+    font-size: larger;
+    margin-top: -270px;
+    margin-left: 400px;
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 768px) {
+    .header img {
+        height: 400px;
+    }
+
+    .text-in-photo {
+        font-size: large;
+        margin-top: 100px;
+    }
+
+    .ps-pov-lizard, .fiz-lizard, .bl-live, .bl-healthy, .bl-food, .bl-g, .bl-p {
+        width: calc(100% - 20px);
+        height: auto;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: large;
+    }
+
+    .t-ps, .t-lizard, .t-fiz, .t-live, .t-healthy, .t-food, .t-g {
+        font-size: medium;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .div-porodu {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    .n-k-varan, .n-h, .n-dovgo-h, .n-st-varan, .n-vyh, .n-snuk {
+        font-size: large;
+        margin-top: 20px;
+    }
+
+    .p-k-varan, .p-h, .p-dovgo-h, .p-st-varan, .p-vyh, .p-snuk {
+        width: calc(100% - 20px);
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .t-k-varan, .t-h, .t-dovgo-h, .t-st-varan, .t-vyh, .t-snuk {
+        font-size: medium;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}

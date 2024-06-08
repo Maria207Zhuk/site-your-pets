@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
 }
 
 .header {
@@ -12,7 +13,7 @@ body {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 700px;
+    height: 50vh;
     object-fit: cover;
     margin: 0;
     padding: 0;
@@ -21,31 +22,32 @@ body {
 
 .text-in-photo {
     position: absolute;
-    top: 110px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    margin-top: 200px;
     font-size: x-large;
-}
-
-.block-pov-cats, .cat-care, .head-diseases, .bl-p {
-    width: 310px;
-    height: 70px;  
-    margin-left: 50px;  margin-top: 120px; margin-bottom: 100px; 
-    color: white;
-    font-size:x-large;
-    background-color: #34580bbc;
     text-align: center;
 }
 
-
-
-.ab-ps, .ab-f, .ab-fodder, .ab-n, .ab-w, .ab-e, .ab-den, .ab-l, .ab-pro{
-    font-size: larger;
-    padding: 50px;
-    background-color: #c3dba7bc;
+.block-pov-cats, .cat-care, .head-diseases, .bl-p {
+    width: 80%;
+    max-width: 310px;
+    height: 70px;
     margin: 50px auto;
+    color: white;
+    font-size: x-large;
+    background-color: #34580bbc;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.ab-ps, .ab-f, .ab-fodder, .ab-n, .ab-w, .ab-e, .ab-den, .ab-l, .ab-pro {
+    font-size: larger;
+    padding: 20px;
+    background-color: #c3dba7bc;
+    margin: 20px auto;
     border-radius: 8px;
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -55,31 +57,27 @@ body {
     font-size: x-large;
     color: rgb(0, 0, 0);
     font-weight: 500;
-    margin: 80px auto;
+    margin: 40px auto;
     max-width: 800px;
     text-align: center;
 }
 
-
 .block-recommendations-food {
     padding: 20px;
     background-color: #c3dba7bc;
-    margin-top: 150px;     margin: 50px auto;
+    margin: 20px auto;
     font-size: larger;
-    padding: 50px;
     border-radius: 8px;
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 
 .recommendations-food {
     font-size: xx-large;
     color: rgb(35, 35, 35);
-    font-size:x-large;
     font-weight: 500;
     text-align: center;
-    margin-top: 70px; margin-bottom: 80px;
+    margin: 20px 0;
 }
 
 .food-container {
@@ -91,15 +89,16 @@ body {
 
 .food-item {
     background-color: rgb(255, 255, 255);
-    width: 30%; /* Width is 30% to fit 3 columns per row */
+    width: 30%;
+    min-width: 280px;
     height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin-bottom: 20px; /* Adjusted for consistent spacing */
-    font-size:large;
+    margin-bottom: 20px;
+    font-size: large;
 }
 
 .food-title {
@@ -108,13 +107,13 @@ body {
 
 @media (max-width: 1000px) {
     .food-item {
-        width: 45%; /* Adjust width for smaller screens */
+        width: 45%;
     }
 }
 
 @media (max-width: 600px) {
     .food-item {
-        width: 100%; /* Full width for very small screens */
+        width: 100%;
     }
 }
 
@@ -122,8 +121,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #c3dba7bc; /* Зелений фон */
-    padding: 20px; /* Відступи по боках */
+    background-color: #c3dba7bc;
+    padding: 20px;
 }
 
 .content-item {
@@ -131,7 +130,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     margin-top: 20px;
-    background-color: white; /* Фон кожного окремого елементу */
+    background-color: white;
 }
 
 .content-item p {
@@ -139,46 +138,106 @@ body {
     font-size: larger;
 }
 
-
 .head-cats {
-    width: 310px;
+    width: 80%;
+    max-width: 310px;
     height: 70px;
-    margin-left: 50px; margin-top: 120px; margin-bottom: 30px;
+    margin: 50px auto;
     color: white;
     font-size: x-large;
     background-color: rgba(53, 52, 3, 0.868);
     text-align: center;
-
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .top-cats {
     font-size: x-large;
-    margin-left: 650px;
+    text-align: center;
+    margin: 20px 0;
     font-weight: 500;
 }
 
 .vstup-diseases {
-    margin-left: 50px; margin-right: 50px;
+    margin: 50px;
 }
-
-
 
 .vstup-diseases img {
-    width: 450px;
-    height: 600px;
-    margin-left: 0px;
+    width: 100%;
+    height: auto;
 }
-
 
 .n-m {
     font-size: x-large;
-    margin-top: 80px;
     font-weight: 700;
-    margin-bottom: 50px; margin-top: 50px; margin-left: 200px;
+    margin: 50px auto;
+    text-align: center;
 }
 
-.t-p{
+.t-p {
     font-size: x-large;
-    margin-left: 660px; margin-top: 20px; margin-bottom: 300px; margin-top: -400px;
-    width: 500px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .text-in-photo {
+        font-size: large;
+    }
+
+    .block-pov-cats, .cat-care, .head-diseases, .bl-p {
+        width: 90%;
+    }
+
+    .vstup-diseases {
+        margin: 20px;
+    }
+
+    .food-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .block-pov-cats, .cat-care, .head-diseases, .bl-p, .ab-ps, .ab-f, .ab-fodder, .ab-n, .ab-w, .ab-e, .ab-den, .ab-l, .ab-pro {
+        font-size: medium;
+        padding: 10px;
+    }
+
+    .v-f, .v-k, .v-n, .v-w, .v-e, .v-den, .v-l, .v-pro {
+        font-size: large;
+    }
+
+    .recommendations-food {
+        font-size: large;
+    }
+
+    .food-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-item {
+        width: 100%;
+        margin: 10px 0;
+    }
 }
