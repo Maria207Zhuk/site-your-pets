@@ -19,15 +19,7 @@ body {
     filter: brightness(40%);
 }
 
-.text-in-photo {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    margin-top: 200px;
-    font-size: x-large;
-}
+
 
 .ps-pov-lizard, .fiz-lizard, .bl-live, .bl-healthy, .bl-food, .bl-g, .bl-p {
     width: 310px;
@@ -76,7 +68,6 @@ body {
     margin-left: 400px;
 }
 
-/* Media queries for mobile devices */
 @media (max-width: 768px) {
     .header img {
         height: 400px;

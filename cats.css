@@ -182,7 +182,7 @@ body {
     text-align: center;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
     .text-in-photo {
         font-size: large;

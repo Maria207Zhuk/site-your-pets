@@ -63,7 +63,7 @@ body {
     width: calc(33.33% - 20px);
     padding: 20px;
     box-sizing: border-box;
-    margin-bottom: 20px; /* Доданий відступ між блоками */
+    margin-bottom: 20px; 
 }
 
 .box p {

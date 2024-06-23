@@ -1,7 +1,3 @@
-/* .video-one {
-    width: 1400px;
-} */
-
 body {
     margin: 0px;
     background-color: #f0f2f5;
@@ -91,10 +87,6 @@ body {
     margin-top: 80px;
 }
 
-
-
-
-
 .vstup-clear, .vstup-hard, .vstup-ak, .vstup-h {
     font-size: x-large;
     margin-left: 500px;
@@ -103,7 +95,6 @@ body {
     margin-top: 80px;
 }
 
-
 .parametru{
     font-size: x-large;
     margin-left: 500px;
@@ -111,9 +102,6 @@ body {
     font-weight: 500;
     margin-top: 80px;
 }
-
-
-
 
 .about-parametru, .ph, .ph-3, .about-ak, .about-types, .about-clear, .ph, .about-hard, .about-hard, .about-food {
     font-size: larger;
@@ -127,32 +115,31 @@ body {
 
 .container-c, .container-ph {
     display: flex;
-    justify-content: space-between; /* Рівномірно розподілити квадратики в рядку */
+    justify-content: space-between;
     margin: 50px;
 }
 
 .container-2, .container-ph-2 {
-    width: calc(33.33% - 20px); /* Ширина квадратика для вміщення 3 в рядку */
-    margin-bottom: 20px; /* Відступи між квадратиками */
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #ffffff; /* Білий колір фону */
-    box-sizing: border-box; /* Урахування товщини рамки у обчисленні ширини */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тінь для створення об'єму */
-    transition: all 0.3s ease; /* Плавна зміна всіх властивостей за 0.3 секунди */
-
+    background-color: #ffffff; 
+    box-sizing: border-box; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
 }
 
 .container-2:hover, .container-ph-2:hover {
-    transform: translateY(-5px); /* Підняття елементу при наведенні */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Збільшення тіні для створення об'єму */
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 }
 
 .container-2 p, .container-ph-2 {
     margin: 0;
     font-size: larger;
-    color: #333; /* Колір тексту */
+    color: #333; 
 }
 
 .div-photo {
@@ -184,11 +171,6 @@ margin-left: 100px;
     width: 500px;
 }
 
-
-
-
-
-
 .ska, .b, .a, .s, .u {
     font-size: x-large;
     font-weight: 700;
@@ -208,5 +190,4 @@ margin-left: 100px;
     margin-top: -300px;
     margin-left: 100px;
     width: 500px;
-
 }

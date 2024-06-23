@@ -1,9 +1,12 @@
+/* Оновлений CSS з сучасним дизайном для мобільних пристроїв */
 
+/* Основні стилі */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
+/* Верхній блок */
 .header {
     position: relative;
 }
@@ -25,7 +28,7 @@ body {
     text-align: center;
 }
 
-
+/* Блоки */
 .block-ps, .block-care {
     width: 100%;
     margin: 20px auto;
@@ -34,7 +37,7 @@ body {
     text-align: center;
 }
 
-
+/* Блоки "Про нас" */
 .about-ps, .bl-h, .bl-med, .bl-st, .bl-trening {
     padding: 20px;
     margin: 20px auto;
@@ -48,7 +51,43 @@ body {
     font-size: 16px;
 }
 
+/* Блоки "Послуги" і "Інші блоки" */
+/* .kvadr-text, .kvadr-med {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 100%;
+    background-color: #18a01148;
+    border-radius: 8px;
+} */
 
+/* Контейнери блоків */
+/* .box, .box-med {
+    width: calc(50% - 20px);
+    margin: 10px;
+    height: auto;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+} */
+
+/* .box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} */
+
+/* Додаткові стилі для тексту і заголовків */
+/* .box p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.box b {
+    color: #000000;
+}
+
+/* Заключний блок */
 .ost {
     padding: 20px;
     margin: 20px auto;
@@ -58,7 +97,7 @@ body {
     background-color: #2e412d48;
     color: #000000;
     border-radius: 8px;
-} 
+} */
 
 .food, .block-care, .vstup-med, .vstup-stumyl, .vstup-trening, .vstup-diseases, .vstup-top10  {
     width: 310px;
@@ -74,7 +113,7 @@ body {
     border-radius: 8px;
 }
 
-.block-ps, .vstup-home, .vstup-med, .vstup-home{
+.block-ps, .vstup-home, .vstup-med{
     font-size: x-large;
     margin-left: 500px;
     color: rgb(26, 22, 60);
@@ -82,7 +121,7 @@ body {
     margin-top: 80px;
 }
 
-.about-ps, .about-home, .kvadr-text, .about-med, .kvadr-med, .about-stumyl, .ab-t, .ab-h{
+.about-ps, .about-home, .kvadr-text, .about-med, .kvadr-med {
         font-size: larger;
         padding: 50px;
         margin: 50px auto;
@@ -90,30 +129,4 @@ body {
         max-width: 800px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         background-color: rgba(69, 164, 247, 0.199);
-}
-
-.divvv {
-    margin-bottom: 200px;
-}
-
-.name-hv, .name-ka, .name-senega, .name-kon, .name-korella, .name-lori, .name-love, .name-afruka, .name-ara, .name-kva {
-    font-size: x-large;
-    margin-top: 80px;
-    font-weight: 700;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin-left: 200px;
-}
- 
-.photo-hv, .photo-ka, .photo-senega, .photo-kon, .photo-korella, .photo-lori, .photo-love, .photo-afruka, .photo-ara, .photo-kvaker {
-    width: 450px;
-    height: 450px;
-    margin-left: 100px;
-}
-
-.text-hv, .text-ka, .text-senega, .text-kon, .text-korella, .text-lori, .text-love, .text-afruka, .text-ara, .text-kvaker {
-    font-size: x-large;
-    margin-top: -450px;
-    margin-left: 660px;
-    width: 500px;
 }

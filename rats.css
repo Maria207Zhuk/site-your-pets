@@ -9,7 +9,6 @@ body {
     z-index: 1;
 }
 
-
 .video-one {
     width: 100%;
     height: auto;
@@ -17,7 +16,6 @@ body {
     top: 0;
     left: 0;
 }
-
 
 .intro {
     max-height: 100vh;
@@ -58,7 +56,6 @@ body {
     color:aliceblue;
     text-align: center;
 }
-
 
 .bl-ps, .bl-care, .bl-d{
     width: 310px;
